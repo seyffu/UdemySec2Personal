@@ -1,0 +1,68 @@
+body {
+  background: #ecf4f3 ;
+  font: 12px sans-serif;
+  margin: auto 15%;
+}
+
+h1, h2, h3 {
+  color: #66BFBF;
+}
+
+hr {
+  border-color: lightgrey;
+  border-style: dotted none none none;
+  border-width: thick;
+  height: 1px;
+  width: 25%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+th {
+  border: 1px solid orangered;
+  color: orange;
+  padding: 2px  0 2px 10px;
+}
+
+/*round image*/
+td img {
+  border-radius: 50%;
+}
+
+/* classes for skills table */
+.tblSkill {
+  border: 1px solid orangered;
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: 50px;
+}
+
+/* For some reason this rule does not work! For now it is inline in the html code. */
+.tblFooter {
+  font-size: inherit;
+}
+
+/* This rule reads: 
+ *  When you get a td after the class .tblSkill apply this style.;
+ *  I did this to separate the two tables on the page. 
+ *  It also means that any table NOT part of the tblSkill will inherit the default style. */
+.tblSkill td { 
+  border: 1px solid orangered;
+  padding: 2px 10px 2px 10px;
+  width: 30%;
+  font-size: medium;
+}
+
+.star {
+  color: orange;
+}
+
+
+/* style="
+style="border: 1px solid orangered; width: 30%; padding: 2px 0 2px 10px;"
+style="color: orange; border: 1px solid orangered; padding: 2px  0 2px 10px;"
+style="border: 1px solid orangered; width: 30%; padding: 2px  0 2px 10px;"
+style="color: orange; border: 1px solid orangered; padding: 2px  0 2px 10px;"
+
+*/

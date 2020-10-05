@@ -1,0 +1,17 @@
+body {
+  background: #ecf4f3 ;
+  font: 12px sans-serif;
+}
+
+h1, h2, h3 {
+  color: #66BFBF;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none none;
+    border-color: lightgrey;
+  height: 1px;
+  border-width: thick;
+
+}
