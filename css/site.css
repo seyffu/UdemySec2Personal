@@ -39,9 +39,10 @@ td img {
 }
 
 /* This rule reads: 
- *  When you get a td after the class .tblSkill apply this style.;
+ *  When you get a td or th after the class .tblSkill apply this style.;
  *  I did this to separate the two tables on the page. 
  *  It also means that any table NOT part of the tblSkill will inherit the default style. */
+ 
 .tblSkill td { 
   border: 1px solid orangered;
   padding: 2px 10px 2px 10px;
